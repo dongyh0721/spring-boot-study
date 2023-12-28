@@ -5,21 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>study.dongyh</groupId>
-    <artifactId>java</artifactId>
+    <artifactId>spring-boot-study</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
-        <module>01.spring-boot-config</module>
-        <module>02.spring-boot-web</module>
-        <module>03.spring-boot-mybatis</module>
-        <module>01.java</module>
+        <module>spring-boot-study-rabbitmq</module>
     </modules>
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.7.9</version>
+                <version>3.2.0</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -29,12 +26,11 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.28</version>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.8.18</version>
+            <version>5.8.24</version>
         </dependency>
     </dependencies>
     <build>
@@ -44,8 +40,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
+                    <source>17</source>
+                    <target>17</target>
                 </configuration>
             </plugin>
         </plugins>

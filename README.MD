@@ -3,10 +3,9 @@
 一个持续学习spring boot的集成项目
 
 - maven-version 3.8.6
-- spring-boot-version 2.7.9
-- jdk-version 1.8
+- spring-boot-version 3.2.0
+- jdk-version 17
 
 ## 目录
 
-1. [spring boot config](./01.spring-boot-config/) spring boot基本使用
-2. [spring boot web](./02.spring-boot-web/) spring boot web基本使用
+- [spring boot整合rabbitmq](./spring-boot-study-rabbitmq) 

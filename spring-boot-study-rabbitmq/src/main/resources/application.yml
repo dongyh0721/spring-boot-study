@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        # 默认为轮询分发
+        # prefetch=1 公平分发 处理速度越快的机器处理的消息越多
+        # 还可以起到削峰、限流的作用
+        # 指定交换机一次性向消费者发送的消息数量
+        prefetch: 1
