@@ -7,4 +7,4 @@
 - jdk-version 17
 
 ## 目录
-#### <a href="./spring-boot-study-rabbitmq">spring boot整合rabbitmq</a>
+#### <a target="_blank" href="./spring-boot-study-rabbitmq">spring boot整合rabbitmq</a>
